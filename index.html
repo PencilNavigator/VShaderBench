@@ -45,7 +45,7 @@
         <textarea name="" id="kernel" cols="30" rows="10"></textarea>
         <br />
         <button id="apply">应用</button>
-        <button id="cancle">取消</button>
+        <button id="cancel">取消</button>
     </div>
     <script>
 alert("三角函数和反三角函数检验程序。需要较好的硬件配置运行。\n仓库地址：https://github.com/PencilNavigator/volumeshader_bm");
@@ -488,7 +488,7 @@ alert("三角函数和反三角函数检验程序。需要较好的硬件配置�
             gly = gl.getUniformLocation(shaderProgram, 'y');
             gllen = gl.getUniformLocation(shaderProgram, 'len');
         });
-        document.getElementById("cancle").addEventListener("click", function() {
+        document.getElementById("cancel").addEventListener("click", function() {
             document.getElementById("kernel").value = KERNEL;
         });
     }
